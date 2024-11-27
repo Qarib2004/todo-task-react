@@ -23,10 +23,10 @@ function TodoForm({ newTodo, onTodoAdd, onTodoChange, onTodoDeleteAll }) {
 }
 
 TodoForm.propTypes = {
-    newTask: PropTypes.string.isRequired,
-    onTaskChange: PropTypes.func.isRequired,
-    onTaskAdd: PropTypes.func.isRequired,
-    onDeleteAll: PropTypes.func.isRequired,
+    newTodo: PropTypes.string.isRequired,
+    onTodoChange: PropTypes.func.isRequired,
+    onTodoAdd: PropTypes.func.isRequired,
+    onTodoDeleteAll: PropTypes.func.isRequired,
   };
 
 
